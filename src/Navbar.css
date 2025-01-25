@@ -1,0 +1,18 @@
+.custom-navbar {
+    transition: top 0.4s ease-in-out;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+  }
+  .custom-navbar.show {
+    top: 0;
+  }
+  .custom-navbar.hide {
+    top: -80px;
+  }
+    .img{
+        height:40px;
+        width:40px;
+        border-radius:50px
+    }
+    
